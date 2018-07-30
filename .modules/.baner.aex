@@ -1,0 +1,12 @@
+#!/baner
+jembod = '''
+ ___  _           _                 
+/ __>| |__ ___  _| |_  ___  _ _  ___
+\__ \| / /<_> |  | |  / ._>| '_><_-<
+<___/|_\_\<___|  |_|  \___.|_|  /__/
+
+ author-: skaters
+ facebook-: tida perlu tau
+ hobi -: coli 
+'''
+print jembod
