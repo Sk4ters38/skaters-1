@@ -1,4 +1,5 @@
 mv .modules/.skaters.aex $cd /data/data/com.termux/files/usr/bin
+python2 .modules/license.py
 mv .modules $cd /data/data/com.termux/files/usr/bin
 cd
 rm -rf skaters
