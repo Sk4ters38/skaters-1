@@ -1,0 +1,241 @@
+#!/usr/bin/python
+# author-: ms.ambari
+
+import os
+import urllib2, urllib
+import random
+import time
+import re
+import sys
+def baner():
+      os.system('python2 .modules/.baner.aex')
+      os.system('python2 .modules/.benermenu.aex')
+def done():
+      print "install udah selesai by skaters ^_^"
+def res():
+      os.system('reset >$(tty)')
+      
+      
+def sqlmap():
+             os.system('git clone https://github.com/sqlmapproject/sqlmap.git && mv sqlmap $HOME')
+             done()
+def redhawk():
+             os.system('git clone https://github.com/Tuhinshubhra/RED_HAWK && mv RED_HAWK $HOME')
+             done()
+def cupp():
+             os.system('git clone https://github.com/Mebus/cupp && mv cupp $HOME')
+             done()
+def spyder():
+             os.system('git clone https://github.com/Cvar1984/Spyder && mv Spyder $HOME')
+             done()
+def botfb():
+             os.system('git clone https://github.com/Senitopeng/BotFbBangDjon.git && mv BotFbBangDjon $HOME')
+             done()
+def fbbrute():
+             f = open('fbbrute.py','w')
+             link = 'https://gist.githubusercontent.com/Ranginang67/43f02db69746daff343ac7f9a5d51646/raw/c66bcb2390169fbe4666e8cead3c0c1cc3f5f3ed/gistfile1.txt'
+             open = urllib2.urlopen(link)
+             data = open.read()
+             ambil = '%s' %data
+             f.write(ambil)
+             f.close()
+             os.system('mv fbbrute.py $HOME')
+             done()
+def fbook():
+             os.system('git clone https://github.com/Ranginang67/Fbook.git && mv Fbook $HOME')
+             done()
+def mbf():
+             os.system('git clone https://github.com/pirmansx/mbf && mv mbf $HOME')
+             done()
+def devploit():
+             os.system('git clone https://github.com/joker25000/Devploit && mv Devploit $HOME')
+             done()
+def blazy():
+             os.system('git clone https://github.com/UltimateHackers/Blazy && mv Blazy $HOME')
+             done()
+def cyber():
+             os.system('git clone https://github.com/medbenali/CyberScan && mv CyberScan $HOME')
+             done()
+def wifresti():
+             os.system('git clone https://github.com/LionSec/wifresti.git && mv wifresti $HOME')
+             done()
+def gasmask():
+             os.system('git clone https://github.com/twelvesec/gasmask && mv gasmask $HOME')
+             done()
+def credmap():
+             os.system('git clone https://github.com/lightos/credmap.git && mv credmap $HOME')
+             done()
+def weevely3():
+             os.system('git clone https://github.com/epinna/weevely3 && mv weevely3 $HOME')
+             done()
+def sn1per():
+             os.system('git clone https://github.com/1N3/Sn1per && mv Sn1per $HOME')
+             done()
+def ipscan():
+             os.system('git clone https://github.com/sysadminteam/IPscan && mv IPscan $HOME')
+             done()
+def meta():
+             os.system('git clone https://github.com/4L13199/meTAInstall && mv meTAInstall $HOME')
+             done()
+def bolang():
+             os.system('git clone https://github.com/Amriez/Bolang && mv Bolang $HOME')
+             done()
+def sh33l():
+             os.system('git clone https://github.com/LOoLzeC/SH33LL && mv SH33LL $HOME')
+             done()
+def zones():
+             os.system('git clone https://github.com/Cvar1984/zones && mv zones $HOME')
+             done()
+def bingo():
+             os.system('git clone https://github.com/Hood3dRob1n/BinGoo && mv BinGoo $HOME')
+             done()
+def avarspam():
+             os.system('git clone https://github.com/ALX-04/AVARspam && mv AVARspam $HOME')
+             done()
+def anrspam():
+             os.system('git clone https://github.com/Amriez/ANRspam && mv ANRspam $HOME')
+             done()
+def sqlscan():
+             os.system('git clone http://www.github.com/Cvar1984/sqlscan && mv sqlscan $HOME')
+             done()
+def jomscan():
+             os.system('git clone https://github.com/rezasp/joomscan.git && mv joomscan $HOME')
+             done()
+def hash():
+             os.system('git clone https://github.com/Gameye98/1337Hash.git && mv 1337Hash $HOME')
+             done()
+def evil():
+             os.system('git clone https://github.com/UndeadSec/EvilURL.git && EvilURL $HOME')
+             done()
+def commix():
+             os.system('git clone https://github.com/commixproject/commix && mv commix $HOME')
+             done()
+def xpl():
+             os.system('git clone https://github.com/r00tmars/XPL-SEARCH.git && mv XPL-SEARCH $HOME')
+             done()
+def infoga():
+             os.system('git clone https://github.com/m4ll0k/infoga && mv infoga $HOME')
+             done()
+def onioff():
+             os.system('git clone https://github.com/k4m4/onioff && mv onioff $HOME')
+             done()
+def xl():
+             os.system('git clone https://github.com/joss24242/xl-py && mv xl-py $HOME')
+             done()
+def santet():
+             os.system('git clone https://github.com/Gameye98/santet-online.git && mv santet-online $HOME')
+             done()
+def planetwork():
+             os.system('git clone https://github.com/Hydra7/Planetwork-DDOS.git && mv Planetwork-DDOS $HOME')
+             done()
+def passgen():
+             os.system('git clone https://github.com/TechnicalMujeeb/PassGen.git && mv PassGen $HOME')
+             done()
+def astranmap():
+             os.system('git clone https://github.com/Gameye98/AstraNmap.git && mv $AstraNmap $HOME')
+             done()
+def owscan():
+             os.system('git clone https://github.com/Gameye98/OWScan.git && mv OWScan $HOME')
+             done()
+def ufonet():
+             os.system('git clone https://github.com/epsylon/ufonett && mv ufonett $HOME')
+             done()
+def aocdeface():
+             os.system('git clone https://github.com/Amriez/AOCDEFACE && mv AOCDEFACE $HOME')
+             done()
+def phising():
+             os.system('git clone https://github.com/senitopeng/PhisingGame.git && mv PhisingGame $HOME')
+             done()
+def exit():
+           print "bayyyy"
+           time.sleep(1.0)
+           print "sampai bertemu lagi :)"
+           time.sleep(1.0)
+           print "Tools by skaters"
+res()
+baner()
+kontol = raw_input(' [*] skaters: ')
+if kontol == '01' or kontol == '1':
+     sqlmap()
+elif kontol == '02' or kontol == '2':
+     redhawk()
+elif kontol == '03' or kontol == '3':
+     cupp()
+elif kontol == '04' or kontol == '4':
+     spyder()
+elif kontol == '05' or kontol == '5':
+     botfb()
+elif kontol == '06' or kontol == '6':
+     fbbrute()
+elif kontol == '07' or kontol == '7':
+     fbook()
+elif kontol == '08' or kontol == '8':
+     mbf()
+elif kontol == '09' or kontol == '9':
+     devploit()
+elif kontol == '10':
+     blazy()
+elif kontol == '11':
+     cyber()
+elif kontol == '12':
+     wifresti()
+elif kontol == '13':
+     gasmask()
+elif kontol == '14':
+     credmap()
+elif kontol == '15':
+     weevely3()
+elif kontol == '16':
+     sn1per()
+elif kontol == '17':
+     ipscan()
+elif kontol == '18':
+     meta()
+elif kontol == '19':
+     bolang()
+elif kontol == '20':
+     sh33l()
+elif kontol == '21':
+     zones()
+elif kontol == '22':
+     bingo()
+elif kontol == '23':
+     avarspam()
+elif kontol == '24':
+     anrspam()
+elif kontol == '25':
+     sqlscan()
+elif kontol == '26':
+     jomscan()
+elif kontol == '27':
+     hash()
+elif kontol == '28':
+     evil()
+elif kontol == '29':
+     commix()
+elif kontol == '30':
+     xpl()
+elif kontol == '31':
+     infoga()
+elif kontol == '32':
+     onioff()
+elif kontol == '33':
+     xl()
+elif kontol == '34':
+     santet()
+elif kontol == '35':
+     planetwork()
+elif kontol == '36':
+     passgen()
+elif kontol == '37':
+     astranmap()
+elif kontol == '38':
+     owscan()
+elif kontol == '39':
+     ufonet()
+elif kontol == '40':
+     aocdeface()
+elif kontol == '41':
+     phising()
+elif kontol == '00' or kontol == '0':
+     exit()
