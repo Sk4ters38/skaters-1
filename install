@@ -1,0 +1,5 @@
+mv .modules/.skaters.aex $cd /data/data/com.termux/files/usr/bin
+mv .modules $cd /data/data/com.termux/files/usr/bin
+cd
+rm -rf skaters
+echo "selesai, sekarang tingal jalankan coeng buka terminal baru. ketik 'skaters' tanpa tanda petik"
